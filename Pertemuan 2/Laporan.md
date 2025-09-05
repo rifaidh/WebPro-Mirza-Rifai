@@ -8,3 +8,8 @@ Membuat file html sederhana yang menampilkan
 - Riwayat pendidikan (tabel).
 - Kontak sederhana (form).
 - Media sosial (link).
+
+## Laman Page
+
+## Source Code
+[Source Code](https://github.com/rifaidh/WebPro-Mirza-Rifai/edit/main/Pertemuan%202/profile.html)
