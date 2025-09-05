@@ -12,4 +12,4 @@ Membuat file html sederhana yang menampilkan
 ## Laman Page
 
 ## Source Code
-[Source Code](https://github.com/rifaidh/WebPro-Mirza-Rifai/edit/main/Pertemuan%202/profile.html)
+[profile.html](https://github.com/rifaidh/WebPro-Mirza-Rifai/edit/main/Pertemuan%202/profile.html)
