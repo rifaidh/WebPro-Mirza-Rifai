@@ -11,5 +11,7 @@ Membuat file html sederhana yang menampilkan
 
 ## Laman Page
 
+<img src="pageview.jpg" alt="Laman web" height="1000">
+
 ## Source Code
 [profile.html](https://github.com/rifaidh/WebPro-Mirza-Rifai/edit/main/Pertemuan%202/profile.html)
