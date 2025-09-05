@@ -14,4 +14,4 @@ Membuat file html sederhana yang menampilkan
 <img src="pageview.jpg" alt="Laman web" height="1000">
 
 ## Source Code
-[profile.html](https://github.com/rifaidh/WebPro-Mirza-Rifai/edit/main/Pertemuan%202/profile.html)
+[Code HTML](https://github.com/rifaidh/WebPro-Mirza-Rifai/edit/main/Pertemuan%202/profile.html)
