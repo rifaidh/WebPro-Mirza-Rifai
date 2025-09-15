@@ -11,6 +11,6 @@ Saya membuat HTML saya dengan memisahkan beberapa bagian agar masing-masing memi
 
 <img width="900" alt="image" src="websiteview.png" />
 
-Source code :  [HTML](week4.html)
-               [CSS](style1.css)
-
+Source code :   
+[HTML](week4.html)  
+[CSS](style1.css)
