@@ -1,0 +1,44 @@
+body {
+    margin: 40px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: seagreen;
+}   
+
+h2 {
+    margin-top: 30px;
+}
+
+.full-container  {
+    display: flex;
+    gap: 15px;
+}
+
+.container {
+    display: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.container-header {
+    background-color: seagreen;
+    color: white;
+    padding: 15px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container-title {
+    padding: 20px 15px 5px;
+    color: rgba(70,125,165,255);
+    font-weight:600;
+}   
+.container-body {
+    padding: 15px;
+    font-size: 14px;
+}
