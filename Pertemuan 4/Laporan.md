@@ -9,7 +9,7 @@ Saya membuat HTML saya dengan memisahkan beberapa bagian agar masing-masing memi
 - Judul Isi Kotak `->` `container-title`
 - Isi Kotak `->` `container-body`
 
-  <img width="900" alt="image" src="websiteview.png" />
+<img width="900" alt="image" src="websiteview.png" />
 
 Source code :  [HTML](week4.html)
                [CSS](style1.css)
