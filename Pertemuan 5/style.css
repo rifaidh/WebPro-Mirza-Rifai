@@ -1,0 +1,100 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 20px;
+  background: #fafafa;
+  color: #222;
+}
+
+.container {
+  max-width: 450px;      
+  margin: 0 auto;        
+  padding: 0 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.card h2 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #a600cf;
+  text-align: center;
+  margin: 0 0 14px;
+}
+
+
+label {
+  display: block;
+  margin: 6px 0 6px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #555;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #cfcfcf;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 15px;
+}
+
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #2b79c2;
+  box-shadow: 0 0 0 2px rgba(43,121,194,0.20);
+}
+
+button {
+  display: block;       
+  margin: 10px auto;   
+  background-color: #a600cf;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover { background: #8200a2;}
+
+.autocomplete { 
+    position: relative; 
+    display: block; 
+}
+
+.autocomplete-items {
+  position: absolute;
+  z-index: 99;
+  top: 100%; left: 0; right: 0;
+  max-height: 180px; overflow-y: auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0 0 6px 6px;
+}
+
+.autocomplete-items div {
+  padding: 8px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
+.autocomplete-items div:hover { background: #f0f4f8; }
+
+.autocomplete-active {
+  background: #75b4ef !important;
+  color: #fff;
+}

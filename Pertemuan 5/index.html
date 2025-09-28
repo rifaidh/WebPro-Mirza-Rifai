@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi dan Pencarian Kode Pos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+    <div class="card">
+        <h2>Form Registrasi</h2>
+        <form id="formMahasiswa">
+            <div class="autocomplete">
+                <label for="nama">Nama Mahasiswa:</label>
+                <input id="nama" type="text" name="nama" placeholder="Ketik nama mahasiswa" required>
+            </div>
+            <label for="nrp">NIM:</label>
+            <input type="text" id="nrp" name="nrp" required>
+            <label for="matkul">Mata Kuliah:</label>
+            <input type="text" id="matkul" name="matkul" required>
+            <label for="dosen">Dosen:</label>
+            <input type="text" id="dosen" name="dosen" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="outputMahasiswa"></div>
+    </div>
+
+    <div class="card">
+        <h2>Cari Kode Pos</h2>
+        <form id="kodepos">
+            <label for="provinsi">Provinsi:</label>
+            <select id="provinsi" name="provinsi" required>
+                <option value="">Pilih Provinsi</option>
+            </select>
+            <label for="kabupaten">Kabupaten/Kota:</label>
+            <select id="kabupaten" name="kabupaten" required disabled>
+                <option value="">Pilih Kabupaten/Kota</option>
+            </select>
+            <label for="kecamatan">Kecamatan:</label>
+            <select id="kecamatan" name="kecamatan" required disabled>
+                <option value="">Pilih Kecamatan</option>
+            </select>
+            <button type="submit">Cari Kode Pos</button>
+        </form>
+        <div id="outputPos"></div>
+    </div>
+
+    <div class="card">
+        <h2>Merk Elektoronik</h2>
+        <form id="merkElektronik">
+            <label for="kategori">Kategori:</label>
+            <select id="kategori" name="kategori" required>
+                <option value="">Pilih Kategori</option>
+            </select>
+            <label for="merk">Merk:</label>
+            <select id="merk" name="merk" required disabled>
+                <option value="">Pilih Merk</option>
+            </select>
+            <button type="submit">Pilih</button>
+        </form>
+        <div id="outputElektronik"></div>
+    </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
