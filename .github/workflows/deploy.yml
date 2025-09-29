@@ -1,0 +1,26 @@
+name: Deploy Pertemuan 5 to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Ganti dengan nama branch utama Anda (misal: master)
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Ini adalah langkah KRUSIAL. Tunjukkan folder yang ingin di-deploy.
+          path: './Pertemuan 5'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
