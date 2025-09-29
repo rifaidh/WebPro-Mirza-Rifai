@@ -8,6 +8,12 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read # Izin untuk membaca file
+      pages: write   # Izin untuk deployment GitHub Pages
+      id-token: write # Izin krusial untuk authentication OIDC (OpenID Connect)
+      
     steps:
       - name: Checkout
         uses: actions/checkout@v4
