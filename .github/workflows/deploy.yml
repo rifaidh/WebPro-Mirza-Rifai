@@ -25,7 +25,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Ini adalah langkah KRUSIAL. Tunjukkan folder yang ingin di-deploy.
-          path: './Pertemuan 5'
+          path: './Landing Page'
 
       - name: Deploy to GitHub Pages
         id: deployment
