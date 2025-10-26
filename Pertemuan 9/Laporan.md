@@ -10,5 +10,9 @@ informasi apakah data berhasil dimasukkan ke database
 # Form Daftar
 form-daftar.php menjadi halaman yang ditampilkan ketika memilih menu Daftar Baru. Halaman ini akan menampilkan form untuk memasukkan data baru yang kemudian
 akan memanggil script proses-pendaftaran.php dan action yang di request adalah "POST"
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/f9f21c6f-0e7f-4e06-bc15-27fd51f35f17" />
 
 [form-daftar.php](form-daftar.php)
+
+# Proses Pendaftaran
+
