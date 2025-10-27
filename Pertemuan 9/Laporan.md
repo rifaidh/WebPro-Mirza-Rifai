@@ -22,5 +22,9 @@ list-siswa.php adalah halaman yang muncul ketika kita mengklik menu Pendaftar. S
 [list-siswa.php](list-siswa.php)
 
 # Form Edit
-form-edit.php adalah halaman untuk mengedit data siswa yang sudah masuk di database. Data yang diedit diatur menggunakan id yang kita pilih di database. Ketika kita klik simpan maka
+form-edit.php adalah halaman untuk mengedit data siswa yang sudah masuk di database. Data yang diedit diatur menggunakan id yang kita pilih di database. Ketika kita klik simpan maka php akan merequest action "POST" untuk menulis ulang id yang dipilih dengan data baru  
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/255545be-0ba6-4727-a411-d315e919db0c" />
+
+[form-edit.php](form-edit.php)
+
 
