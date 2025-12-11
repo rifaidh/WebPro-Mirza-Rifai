@@ -9,6 +9,9 @@ level yang dimiliki akun tersebut dengan [cek_login.php](cek_login.php)
 File cek login akan memberikan header(location "...") ke masing-masing halaman. Kemudian user yang sudah terverifikasi akan dialihkan ke 
 halaman sesuai dengan level yang dimilikinya.
 
+## Tabel Data User
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/e64b9747-6d46-47a8-915a-df8c01004d46" />
+
 ## halaman_admin.php
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/c115e58a-3bfe-477f-91fe-12312f4e9b84" />
 
